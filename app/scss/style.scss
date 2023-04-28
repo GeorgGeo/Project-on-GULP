@@ -1,0 +1,17 @@
+// Libs
+// @import 'node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+@import 'node_modules/@fortawesome/fontawesome-free/scss/regular';
+@import 'node_modules/@fortawesome/fontawesome-free/scss/solid';
+
+@import 'node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+
+
+@import 'variables';
+@import 'mixins/index';
+@import 'grid/index';
+
+@import 'reset';
+@import 'header';
+@import 'main';
+
+

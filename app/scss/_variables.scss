@@ -1,0 +1,44 @@
+$fonts: (//переменная
+    'norwesterregular': (//навание шрифта
+        'woff2': '../fonts/norwester-webfont.woff2',//ключом является расширение (значением является путь)
+        'woff': '../fonts/norwester-webfont.woff'
+    )
+    // Если шрифтов будет больше, через запятую генерируем другие шрифты также
+);
+
+// Grid
+$container-width: 1180px;
+$grid-columns: 12;//сколько будет колонок
+$grid-gutter-width: 30px;//отступы и у колонок и у контейнера
+
+// определяем размеры контейнера и контрольных точек
+$grid-breakpoints: (
+    xl: 1199px,
+    lg: 991px,
+    md: 767px,
+    sm: 575px
+);
+// список контейнеров по отношению к breakpoints
+$container-max-width: (
+    xl: 960px,//макс ширина контейнера для соответствующего breakpoint
+    lg: 720px,
+    md: 540px,
+    sm: 100%
+);
+// d-flex
+$displays: none, inline-block, block, flex;
+// variables for project
+:root {
+    --margin: 8px;
+    --padding: 4px;
+    // text
+    --t_light: 300;
+    --t_medium: 500;
+    --t-senibold: 600;
+    --t_size: 8px;
+    // color
+    --color-white: #fff;
+    --color-black: #000;
+    --color-primary: #3e86f5;
+    --color-secondary: #7c7c7c;
+}

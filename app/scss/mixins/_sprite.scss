@@ -1,0 +1,222 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$-ellipse-1-name: 'Ellipse_1';
+$-ellipse-1-x: 1581px;
+$-ellipse-1-y: 783px;
+$-ellipse-1-offset-x: -1581px;
+$-ellipse-1-offset-y: -783px;
+$-ellipse-1-width: 100px;
+$-ellipse-1-height: 100px;
+$-ellipse-1-total-width: 2625px;
+$-ellipse-1-total-height: 1757px;
+$-ellipse-1-image: '../images/sprite.png';
+$-ellipse-1: (1581px, 783px, -1581px, -783px, 100px, 100px, 2625px, 1757px, '../images/sprite.png', 'Ellipse_1', );
+$-ellipse-2-name: 'Ellipse_2';
+$-ellipse-2-x: 1686px;
+$-ellipse-2-y: 783px;
+$-ellipse-2-offset-x: -1686px;
+$-ellipse-2-offset-y: -783px;
+$-ellipse-2-width: 100px;
+$-ellipse-2-height: 100px;
+$-ellipse-2-total-width: 2625px;
+$-ellipse-2-total-height: 1757px;
+$-ellipse-2-image: '../images/sprite.png';
+$-ellipse-2: (1686px, 783px, -1686px, -783px, 100px, 100px, 2625px, 1757px, '../images/sprite.png', 'Ellipse_2', );
+$-mountan-2-name: 'Mountan_2';
+$-mountan-2-x: 750px;
+$-mountan-2-y: 957px;
+$-mountan-2-offset-x: -750px;
+$-mountan-2-offset-y: -957px;
+$-mountan-2-width: 260px;
+$-mountan-2-height: 200px;
+$-mountan-2-total-width: 2625px;
+$-mountan-2-total-height: 1757px;
+$-mountan-2-image: '../images/sprite.png';
+$-mountan-2: (750px, 957px, -750px, -957px, 260px, 200px, 2625px, 1757px, '../images/sprite.png', 'Mountan_2', );
+$-mountans-2-name: 'Mountans_2';
+$-mountans-2-x: 485px;
+$-mountans-2-y: 957px;
+$-mountans-2-offset-x: -485px;
+$-mountans-2-offset-y: -957px;
+$-mountans-2-width: 260px;
+$-mountans-2-height: 200px;
+$-mountans-2-total-width: 2625px;
+$-mountans-2-total-height: 1757px;
+$-mountans-2-image: '../images/sprite.png';
+$-mountans-2: (485px, 957px, -485px, -957px, 260px, 200px, 2625px, 1757px, '../images/sprite.png', 'Mountans_2', );
+$-quote-name: 'Quote';
+$-quote-x: 1445px;
+$-quote-y: 783px;
+$-quote-offset-x: -1445px;
+$-quote-offset-y: -783px;
+$-quote-width: 131px;
+$-quote-height: 104px;
+$-quote-total-width: 2625px;
+$-quote-total-height: 1757px;
+$-quote-image: '../images/sprite.png';
+$-quote: (1445px, 783px, -1445px, -783px, 131px, 104px, 2625px, 1757px, '../images/sprite.png', 'Quote', );
+$beach-name: 'beach';
+$beach-x: 1445px;
+$beach-y: 505px;
+$beach-offset-x: -1445px;
+$beach-offset-y: -505px;
+$beach-width: 293px;
+$beach-height: 273px;
+$beach-total-width: 2625px;
+$beach-total-height: 1757px;
+$beach-image: '../images/sprite.png';
+$beach: (1445px, 505px, -1445px, -505px, 293px, 273px, 2625px, 1757px, '../images/sprite.png', 'beach', );
+$beach-1-name: 'beach_1';
+$beach-1-x: 2339px;
+$beach-1-y: 505px;
+$beach-1-offset-x: -2339px;
+$beach-1-offset-y: -505px;
+$beach-1-width: 260px;
+$beach-1-height: 200px;
+$beach-1-total-width: 2625px;
+$beach-1-total-height: 1757px;
+$beach-1-image: '../images/sprite.png';
+$beach-1: (2339px, 505px, -2339px, -505px, 260px, 200px, 2625px, 1757px, '../images/sprite.png', 'beach_1', );
+$bg-name: 'bg';
+$bg-x: 0px;
+$bg-y: 0px;
+$bg-offset-x: 0px;
+$bg-offset-y: 0px;
+$bg-width: 1440px;
+$bg-height: 952px;
+$bg-total-width: 2625px;
+$bg-total-height: 1757px;
+$bg-image: '../images/sprite.png';
+$bg: (0px, 0px, 0px, 0px, 1440px, 952px, 2625px, 1757px, '../images/sprite.png', 'bg', );
+$discount-name: 'discount';
+$discount-x: 1445px;
+$discount-y: 0px;
+$discount-offset-x: -1445px;
+$discount-offset-y: 0px;
+$discount-width: 1180px;
+$discount-height: 500px;
+$discount-total-width: 2625px;
+$discount-total-height: 1757px;
+$discount-image: '../images/sprite.png';
+$discount: (1445px, 0px, -1445px, 0px, 1180px, 500px, 2625px, 1757px, '../images/sprite.png', 'discount', );
+$mountans-name: 'mountans';
+$mountans-x: 1743px;
+$mountans-y: 505px;
+$mountans-offset-x: -1743px;
+$mountans-offset-y: -505px;
+$mountans-width: 293px;
+$mountans-height: 273px;
+$mountans-total-width: 2625px;
+$mountans-total-height: 1757px;
+$mountans-image: '../images/sprite.png';
+$mountans: (1743px, 505px, -1743px, -505px, 293px, 273px, 2625px, 1757px, '../images/sprite.png', 'mountans', );
+$palms-name: 'palms';
+$palms-x: 1015px;
+$palms-y: 957px;
+$palms-offset-x: -1015px;
+$palms-offset-y: -957px;
+$palms-width: 260px;
+$palms-height: 200px;
+$palms-total-width: 2625px;
+$palms-total-height: 1757px;
+$palms-image: '../images/sprite.png';
+$palms: (1015px, 957px, -1015px, -957px, 260px, 200px, 2625px, 1757px, '../images/sprite.png', 'palms', );
+$sea-name: 'sea';
+$sea-x: 2041px;
+$sea-y: 505px;
+$sea-offset-x: -2041px;
+$sea-offset-y: -505px;
+$sea-width: 293px;
+$sea-height: 273px;
+$sea-total-width: 2625px;
+$sea-total-height: 1757px;
+$sea-image: '../images/sprite.png';
+$sea: (2041px, 505px, -2041px, -505px, 293px, 273px, 2625px, 1757px, '../images/sprite.png', 'sea', );
+$statistic-name: 'statistic';
+$statistic-x: 0px;
+$statistic-y: 957px;
+$statistic-offset-x: 0px;
+$statistic-offset-y: -957px;
+$statistic-width: 480px;
+$statistic-height: 800px;
+$statistic-total-width: 2625px;
+$statistic-total-height: 1757px;
+$statistic-image: '../images/sprite.png';
+$statistic: (0px, 957px, 0px, -957px, 480px, 800px, 2625px, 1757px, '../images/sprite.png', 'statistic', );
+$spritesheet-width: 2625px;
+$spritesheet-height: 1757px;
+$spritesheet-image: '../images/sprite.png';
+$spritesheet-sprites: ($-ellipse-1, $-ellipse-2, $-mountan-2, $-mountans-2, $-quote, $beach, $beach-1, $bg, $discount, $mountans, $palms, $sea, $statistic, );
+$spritesheet: (2625px, 1757px, '../images/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

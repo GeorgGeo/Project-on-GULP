@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <header class="header sprite-sheet bg">
+      <!-- sprite-sheet bg -->
+      <div class="header-nav">
+        <nav class="nav">
+          <div class="container">
+            <div class="row">
+              <div class="logo col col-2">Treloo</div>
+              <div class="menu col col-7 d-flex align-items-center">
+                <a href="#review" class="menu-item">Review</a>
+                <a href="#tips" class="menu-item">Tips</a>
+                <a href="#modal" class="modal-btn menu-item">Alerts</a>
+                <a href="#blog" class="menu-item">Blog</a>
+                <a
+                  href="#"
+                  class="menu-item menu-item__active"
+                  data-bs-toggle="button"
+                  role="button"
+                  aria-pressed="true"
+                >
+                  Blog
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- nav -->
+        <div class="first-screen d-flex">
+          <div class="container">
+            <div class="row">
+              <div class="first-screen__content">
+                <h1 class="first-screen__title">
+                  Discover Your Life, Travel Where You Want
+                </h1>
+                <span class="first-screen__description d-inline-block">
+                  Would you explore natur paradise in the world, let’s find the
+                  best destination in world with us.
+                </span>
+              </div>
+              <!-- /.first-screen__content -->
+            </div>
+          </div>
+        </div>
+        <!-- /.first-screen -->
+      </div>
+    </header>
+    <!-- Header -->
+    <main class="main">
+      <section class="search-block">
+        <!-- id="tabs" -->
+        <div class="tabs">
+          <div class="container">
+            <div class="row">
+              <div class="search col col-3">
+                <div
+                  class="search__tabs d-flex justify-content-between align-items-center"
+                >
+                  <div class="search__tab active" tabindex="0">
+                    <!-- data-tab="#tabs-1" -->
+                    <a href="#tabs-1" class="search-link active">Flight</a>
+                  </div>
+                  <div class="search__tab" tabindex="0">
+                    <!-- data-tab="#tabs-2" -->
+                    <a href="#tabs-2" class="search-link search-link__hotel">
+                      Hotel
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div id="tabs-1" class="tabs__content active">
+              <div class="row">
+                <!-- id="tabs-1" -->
+                <div class="filters col col-12 d-flex">
+                  <div class="filter d-flex justify-content-center">
+                    <div class="row">
+                      <div class="filter-item d-flex">
+                        <div class="item item-first">
+                          <div class="item-name">Living From</div>
+                          <div class="item-value">Dubai</div>
+                        </div>
+                        <div class="icon"></div>
+                        <div class="item item-last">
+                          <div class="item-name">Going to</div>
+                          <div class="item-value">New York</div>
+                        </div>
+                      </div>
+                      <!--  -->
+                      <div class="filter-item d-flex">
+                        <div class="item item-width">
+                          <div class="item-name d-flex align-items-center">
+                            <span class="item-name__from">Leave</span>
+                            <div class="item-name__icon"></div>
+                          </div>
+                          <div class="item-value">23 Jan, Sat</div>
+                        </div>
+                        <div class="icon-hotel"></div>
+                        <div class="item item-width">
+                          <div class="item-name d-flex align-items-center">
+                            <span class="item-name__from">Return</span>
+                            <div class="item-name__icon rotate"></div>
+                          </div>
+                          <div class="item-value">14 Jan, Thu</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <div class="filter-search d-flex justify-content-center">
+                    <button class="filter-button"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- id="tabs-2" -->
+            <div id="tabs-2" class="tabs__content">
+              <div class="row">
+                <!-- id="tabs-2" -->
+                <div class="filters col col-12 d-flex" id="tabs-2">
+                  <div class="filter d-flex justify-content-center">
+                    <div class="row">
+                      <div class="filter-item d-flex">
+                        <div class="item item-first">
+                          <div class="item-name">Living From</div>
+                          <div class="item-value">Kharkov</div>
+                        </div>
+                        <div class="icon"></div>
+                        <div class="item item-last">
+                          <div class="item-name">Going to</div>
+                          <div class="item-value">Dubai</div>
+                        </div>
+                      </div>
+                      <!--  -->
+                      <div class="filter-item d-flex">
+                        <div class="item item-width">
+                          <div class="item-name d-flex align-items-center">
+                            <span class="item-name__from">Leave</span>
+                            <div class="item-name__icon"></div>
+                          </div>
+                          <div class="item-value">7 Jan, Sat</div>
+                        </div>
+                        <div class="icon-hotel"></div>
+                        <div class="item item-width">
+                          <div class="item-name d-flex align-items-center">
+                            <span class="item-name__from">Return</span>
+                            <div class="item-name__icon rotate"></div>
+                          </div>
+                          <div class="item-value">14 Jan, Thu</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <div class="filter-search"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.search-block -->
+      <section class="offers">
+        <div class="special-offers">
+          <div class="container">
+            <div class="row">
+              <h2 class="title text-center title--margin">
+                Special Upcoming Offers
+              </h2>
+            </div>
+            <!-- Tabs -->
+            <div class="offers-tabs" id="tabs">
+              <ul class="offers-tabs__ul d-flex justify-content-center mx-auto">
+                <li
+                  class="tabs-item tabs__item--active align-self-center d-flex justify-content-center"
+                >
+                  <a
+                    href="#tabs-1"
+                    data-tab="#tabs-1"
+                    class="d-flex align-items-center"
+                  >
+                    Team
+                  </a>
+                </li>
+                <li
+                  class="tabs-item align-self-center justify-content-center"
+                  tabindex="0"
+                >
+                  <a
+                    href="#tabs-2"
+                    data-tab="#tabs-2"
+                    class="d-flex align-items-center"
+                  >
+                    Couple
+                  </a>
+                </li>
+                <li class="tabs-item align-self-center justify-content-center">
+                  <a
+                    href="#tabs-3"
+                    data-tab="#tabs-3"
+                    class="d-flex align-items-center"
+                  >
+                    Family
+                  </a>
+                </li>
+              </ul>
+              <!-- id="tab-1" -->
+              <div class="offers-cards d-flex active" id="tabs-1">
+                <div class="offer">
+                  <div class="card-top d-flex">
+                    <div class="card-top__photo"></div>
+                    <div
+                      class="card-top__date d-flex justify-content-center align-items-center"
+                    >
+                      <span>14 FEB 2022</span>
+                    </div>
+                  </div>
+                  <div class="card-bottom">
+                    <ul class="card-bottom__params d-flex">
+                      <li class="param param--active">Relax</li>
+                      <li class="param">3 Days, 3 Nights</li>
+                    </ul>
+                    <h6 class="card-bottom__title">Loga Sea</h6>
+                    <!--  -->
+                    <div class="card-bottom__total d-flex">
+                      <p class="card-total__person">
+                        700$
+                        <span class="card-person">
+                          <strong>/</strong>
+                          Person
+                        </span>
+                      </p>
+                      <button class="book-now" type="button" value="book-now">
+                        Book Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="offer">
+                  <div class="card-top d-flex">
+                    <div class="card-top__photo card-top__photo--2"></div>
+                    <div
+                      class="card-top__date d-flex justify-content-center align-items-center"
+                    >
+                      <span>18 JUN 2022</span>
+                    </div>
+                  </div>
+                  <div class="card-bottom">
+                    <ul class="card-bottom__params d-flex">
+                      <li class="param param--blue">Adventure</li>
+                      <li class="param">4 Days, 3 Nights</li>
+                    </ul>
+                    <h6 class="card-bottom__title">Ansgar Scheffold</h6>
+                    <!--  -->
+                    <div class="card-bottom__total d-flex">
+                      <p class="card-total__person">
+                        400$
+                        <span class="card-person">
+                          <strong>/</strong>
+                          Person
+                        </span>
+                      </p>
+                      <button class="book-now" type="button" value="book-now">
+                        Book Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="offer">
+                  <div class="card-top d-flex">
+                    <div class="card-top__photo card-top__photo--3"></div>
+                    <div
+                      class="card-top__date d-flex justify-content-center align-items-center"
+                    >
+                      <span>22 DEC 2022</span>
+                    </div>
+                  </div>
+                  <div class="card-bottom">
+                    <ul class="card-bottom__params d-flex">
+                      <li class="param param--active">Relax</li>
+                      <li class="param">7 Days, 6 Nights</li>
+                    </ul>
+                    <h6 class="card-bottom__title">Lona X</h6>
+                    <!--  -->
+                    <div class="card-bottom__total d-flex">
+                      <p class="card-total__person">
+                        340$
+                        <span class="card-person">
+                          <strong>/</strong>
+                          Person
+                        </span>
+                      </p>
+                      <button class="book-now" type="button" value="book-now">
+                        Book Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- id="tab-2" -->
+              <div class="offers-cards d-flex active" id="tabs-2">
+                <div class="offer">
+                  <div class="card-top d-flex">
+                    <div class="card-top__photo card-top__photo--2"></div>
+                    <div
+                      class="card-top__date d-flex justify-content-center align-items-center"
+                    >
+                      <span>14 FEB 2022</span>
+                    </div>
+                  </div>
+                  <div class="card-bottom">
+                    <ul class="card-bottom__params d-flex">
+                      <li class="param param--active">Relax</li>
+                      <li class="param">3 Days, 3 Nights</li>
+                    </ul>
+                    <h6 class="card-bottom__title">Loga Sea</h6>
+                    <!--  -->
+                    <div class="card-bottom__total d-flex">
+                      <p class="card-total__person">
+                        700$
+                        <span class="card-person">
+                          <strong>/</strong>
+                          Person
+                        </span>
+                      </p>
+                      <button class="book-now" type="button" value="book-now">
+                        Book Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="offer">
+                  <div class="card-top d-flex">
+                    <div class="card-top__photo"></div>
+                    <div
+                      class="card-top__date d-flex justify-content-center align-items-center"
+                    >
+                      <span>18 JUN 2022</span>
+                    </div>
+                  </div>
+                  <div class="card-bottom">
+                    <ul class="card-bottom__params d-flex">
+                      <li class="param param--blue">Adventure</li>
+                      <li class="param">4 Days, 3 Nights</li>
+                    </ul>
+                    <h6 class="card-bottom__title">Ansgar Scheffold</h6>
+                    <!--  -->
+                    <div class="card-bottom__total d-flex">
+                      <p class="card-total__person">
+                        400$
+                        <span class="card-person">
+                          <strong>/</strong>
+                          Person
+                        </span>
+                      </p>
+                      <button class="book-now" type="button" value="book-now">
+                        Book Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="offer">
+                  <div class="card-top d-flex">
+                    <div class="card-top__photo card-top__photo--3"></div>
+                    <div
+                      class="card-top__date d-flex justify-content-center align-items-center"
+                    >
+                      <span>22 DEC 2022</span>
+                    </div>
+                  </div>
+                  <div class="card-bottom">
+                    <ul class="card-bottom__params d-flex">
+                      <li class="param param--active">Relax</li>
+                      <li class="param">7 Days, 6 Nights</li>
+                    </ul>
+                    <h6 class="card-bottom__title">Lona X</h6>
+                    <!--  -->
+                    <div class="card-bottom__total d-flex">
+                      <p class="card-total__person">
+                        340$
+                        <span class="card-person">
+                          <strong>/</strong>
+                          Person
+                        </span>
+                      </p>
+                      <button class="book-now" type="button" value="book-now">
+                        Book Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- id="tab-3"  -->
+              <div class="offers-cards d-flex active" id="tabs-3">
+                <div class="offer">
+                  <div class="card-top d-flex">
+                    <div class="card-top__photo card-top__photo--3"></div>
+                    <div
+                      class="card-top__date d-flex justify-content-center align-items-center"
+                    >
+                      <span>14 FEB 2022</span>
+                    </div>
+                  </div>
+                  <div class="card-bottom">
+                    <ul class="card-bottom__params d-flex">
+                      <li class="param param--active">Relax</li>
+                      <li class="param">3 Days, 3 Nights</li>
+                    </ul>
+                    <h6 class="card-bottom__title">Loga Sea</h6>
+                    <!--  -->
+                    <div class="card-bottom__total d-flex">
+                      <p class="card-total__person">
+                        700$
+                        <span class="card-person">
+                          <strong>/</strong>
+                          Person
+                        </span>
+                      </p>
+                      <button class="book-now" type="button" value="book-now">
+                        Book Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="offer">
+                  <div class="card-top d-flex">
+                    <div class="card-top__photo"></div>
+                    <div
+                      class="card-top__date d-flex justify-content-center align-items-center"
+                    >
+                      <span>18 JUN 2022</span>
+                    </div>
+                  </div>
+                  <div class="card-bottom">
+                    <ul class="card-bottom__params d-flex">
+                      <li class="param param--blue">Adventure</li>
+                      <li class="param">4 Days, 3 Nights</li>
+                    </ul>
+                    <h6 class="card-bottom__title">Ansgar Scheffold</h6>
+                    <!--  -->
+                    <div class="card-bottom__total d-flex">
+                      <p class="card-total__person">
+                        400$
+                        <span class="card-person">
+                          <strong>/</strong>
+                          Person
+                        </span>
+                      </p>
+                      <button class="book-now" type="button" value="book-now">
+                        Book Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="offer">
+                  <div class="card-top d-flex">
+                    <div class="card-top__photo card-top__photo--3"></div>
+                    <div
+                      class="card-top__date d-flex justify-content-center align-items-center"
+                    >
+                      <span>22 DEC 2022</span>
+                    </div>
+                  </div>
+                  <div class="card-bottom">
+                    <ul class="card-bottom__params d-flex">
+                      <li class="param param--active">Relax</li>
+                      <li class="param">7 Days, 6 Nights</li>
+                    </ul>
+                    <h6 class="card-bottom__title">Lona X</h6>
+                    <!--  -->
+                    <div class="card-bottom__total d-flex">
+                      <p class="card-total__person">
+                        340$
+                        <span class="card-person">
+                          <strong>/</strong>
+                          Person
+                        </span>
+                      </p>
+                      <button class="book-now" type="button" value="book-now">
+                        Book Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /#tabs.offers-tabs -->
+          </div>
+        </div>
+        <!-- /.special-offers -->
+      </section>
+      <!-- /.offers -->
+      <section class="about">
+        <div class="container">
+          <div class="row">
+            <div class="statistic-description d-flex">
+              <div class="statistic">
+                <div
+                  class="statistic__badge statistic__badge--top d-flex flex-column align-items-center justify-content-center"
+                >
+                  <div>
+                    <strong>300+</strong>
+                  </div>
+                  <span>DESTINATIONS</span>
+                </div>
+                <div
+                  class="statistic__badge statistic__badge--middle d-flex flex-column align-items-center justify-content-center"
+                >
+                  <div>
+                    <strong>5000+</strong>
+                  </div>
+                  <span>TOURISTS</span>
+                </div>
+                <div
+                  class="statistic__badge statistic__badge--bottom d-flex flex-column align-items-center justify-content-center"
+                >
+                  <div>
+                    <strong>150+</strong>
+                  </div>
+                  <span>HOTELS</span>
+                </div>
+              </div>
+              <!-- /.statistic -->
+              <div class="description">
+                <h2 class="title">Travel Any Corner of The World With Us</h2>
+                <div class="description__text">
+                  <p lang="en" class="description__text--color">
+                    Would you explore nature paradise in the world, let’s find
+                    <wbr />
+                    best destination in world with us, Would you explore nature
+                    paradise in the world, let’s find the best destination in
+                    world with us. Would you explore nature paradise in the
+                    world, let’s find the best destination in world with us.
+                  </p>
+                  <p class="description__text--color">
+                    Would you explore nature paradise in the world, let’s find
+                    the best destination in world with us.
+                  </p>
+                </div>
+                <button
+                  class="description-btn"
+                  type="button"
+                  value="Contact As"
+                >
+                  Contact As
+                </button>
+              </div>
+              <!-- /.description -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.about -->
+      <section class="destination">
+        <div class="container">
+          <div class="row">
+            <h2 class="title text-center">Recommended Destination</h2>
+          </div>
+          <!--  -->
+          <div class="row justify-content-center">
+            <!-- Tabs -->
+            <div class="destination-tabs" id="tabs-destination">
+              <ul
+                class="destination-tabs__ul d-flex justify-content-center align-items-center mx-auto"
+              >
+                <li class="tab-item tab-item--active">
+                  <a href="#tabs-11" class="destination-tabs__ul--link">
+                    Populor
+                  </a>
+                </li>
+                <li class="tab-item">
+                  <a href="#tabs-12" class="destination-tabs__ul--link">
+                    Adventure
+                  </a>
+                </li>
+                <li class="tab-item">
+                  <a href="#tabs-13" class="destination-tabs__ul--link">
+                    Beath
+                  </a>
+                </li>
+              </ul>
+              <!-- /.destination-tabs__ul -->
+              <!-- id="tabs-1" -->
+              <div
+                class="destination-card d-flex justify-content-between"
+                id="tabs-11"
+              >
+                <div class="destination-card__offer">
+                  <div
+                    class="destination-card--top d-flex justify-content-center"
+                  >
+                    <div class="Mountans_2"></div>
+                    <div
+                      class="destination-card--reting d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-star"></i>
+                      <span>3.4</span>
+                    </div>
+                  </div>
+                  <div class="destination-card--bottom">
+                    <h6 class="destination-card--title">Kina Mountain</h6>
+                    <div class="destination-card__total">
+                      <div class="destination-card__person d-flex">
+                        <i
+                          class="fa-sharp fa-solid fa-location-dot destination-card__person--icon d-flex justify-content-center"
+                        ></i>
+                        <span class="destination-card__person--title">
+                          Cambodia
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="destination-card__offer">
+                  <div
+                    class="destination-card--top d-flex justify-content-center"
+                  >
+                    <div class="Mountan_2"></div>
+                    <div
+                      class="destination-card--reting d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-star"></i>
+                      <span>4.5</span>
+                    </div>
+                  </div>
+                  <div class="destination-card--bottom">
+                    <h6 class="destination-card--title">Kina Mountain</h6>
+                    <div class="destination-card__total">
+                      <div class="destination-card__person d-flex">
+                        <i
+                          class="fa-sharp fa-solid fa-location-dot destination-card__person--icon d-flex justify-content-center"
+                        ></i>
+                        <span class="destination-card__person--title">
+                          Cambodia
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="destination-card__offer">
+                  <div
+                    class="destination-card--top d-flex justify-content-center"
+                  >
+                    <div class="beach_1"></div>
+                    <div
+                      class="destination-card--reting d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-star"></i>
+                      <span>4.2</span>
+                    </div>
+                  </div>
+                  <div class="destination-card--bottom">
+                    <h6 class="destination-card--title">Kina Mountain</h6>
+                    <div class="destination-card__total">
+                      <div class="destination-card__person d-flex">
+                        <i
+                          class="fa-sharp fa-solid fa-location-dot destination-card__person--icon d-flex justify-content-center"
+                        ></i>
+                        <span class="destination-card__person--title">
+                          Cambodia
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="destination-card__offer">
+                  <div
+                    class="destination-card--top d-flex justify-content-center"
+                  >
+                    <div class="palms"></div>
+                    <div
+                      class="destination-card--reting d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-star"></i>
+                      <span>3.5</span>
+                    </div>
+                  </div>
+                  <div class="destination-card--bottom">
+                    <h6 class="destination-card--title">Kina Mountain</h6>
+                    <div class="destination-card__total">
+                      <div class="destination-card__person d-flex">
+                        <i
+                          class="fa-sharp fa-solid fa-location-dot destination-card__person--icon d-flex justify-content-center"
+                        ></i>
+                        <span class="destination-card__person--title">
+                          Cambodia
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /.destination-card -->
+              <!-- id="tabs-2" -->
+              <div
+                class="destination-card d-flex justify-content-between"
+                id="tabs-12"
+              >
+                <div class="destination-card__offer">
+                  <div
+                    class="destination-card--top d-flex justify-content-center"
+                  >
+                    <div class="Mountan_2"></div>
+                    <div
+                      class="destination-card--reting d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-star"></i>
+                      <span>3.4</span>
+                    </div>
+                  </div>
+                  <div class="destination-card--bottom">
+                    <h6 class="destination-card--title">Kina Mountain</h6>
+                    <div class="destination-card__total">
+                      <div class="destination-card__person d-flex">
+                        <i
+                          class="fa-sharp fa-solid fa-location-dot destination-card__person--icon d-flex justify-content-center"
+                        ></i>
+                        <span class="destination-card__person--title">
+                          Cambodia
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="destination-card__offer">
+                  <div
+                    class="destination-card--top d-flex justify-content-center"
+                  >
+                    <div class="Mountans_2"></div>
+                    <div
+                      class="destination-card--reting d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-star"></i>
+                      <span>4.5</span>
+                    </div>
+                  </div>
+                  <div class="destination-card--bottom">
+                    <h6 class="destination-card--title">Kina Mountain</h6>
+                    <div class="destination-card__total">
+                      <div class="destination-card__person d-flex">
+                        <i
+                          class="fa-sharp fa-solid fa-location-dot destination-card__person--icon d-flex justify-content-center"
+                        ></i>
+                        <span class="destination-card__person--title">
+                          Cambodia
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="destination-card__offer">
+                  <div
+                    class="destination-card--top d-flex justify-content-center"
+                  >
+                    <div class="palms"></div>
+                    <div
+                      class="destination-card--reting d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-star"></i>
+                      <span>4.2</span>
+                    </div>
+                  </div>
+                  <div class="destination-card--bottom">
+                    <h6 class="destination-card--title">Kina Mountain</h6>
+                    <div class="destination-card__total">
+                      <div class="destination-card__person d-flex">
+                        <i
+                          class="fa-sharp fa-solid fa-location-dot destination-card__person--icon d-flex justify-content-center"
+                        ></i>
+                        <span class="destination-card__person--title">
+                          Cambodia
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="destination-card__offer">
+                  <div
+                    class="destination-card--top d-flex justify-content-center"
+                  >
+                    <div class="palms"></div>
+                    <div
+                      class="destination-card--reting d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-star"></i>
+                      <span>3.5</span>
+                    </div>
+                  </div>
+                  <div class="destination-card--bottom">
+                    <h6 class="destination-card--title">Kina Mountain</h6>
+                    <div class="destination-card__total">
+                      <div class="destination-card__person d-flex">
+                        <i
+                          class="fa-sharp fa-solid fa-location-dot destination-card__person--icon d-flex justify-content-center"
+                        ></i>
+                        <span class="destination-card__person--title">
+                          Cambodia
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /.destination-card -->
+              <!-- id="tabs-3" -->
+              <div
+                class="destination-card d-flex justify-content-between"
+                id="tabs-13"
+              >
+                <div class="destination-card__offer">
+                  <div
+                    class="destination-card--top d-flex justify-content-center"
+                  >
+                    <div class="palms"></div>
+                    <div
+                      class="destination-card--reting d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-star"></i>
+                      <span>3.4</span>
+                    </div>
+                  </div>
+                  <div class="destination-card--bottom">
+                    <h6 class="destination-card--title">Kina Mountain</h6>
+                    <div class="destination-card__total">
+                      <div class="destination-card__person d-flex">
+                        <i
+                          class="fa-sharp fa-solid fa-location-dot destination-card__person--icon d-flex justify-content-center"
+                        ></i>
+                        <span class="destination-card__person--title">
+                          Cambodia
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="destination-card__offer">
+                  <div
+                    class="destination-card--top d-flex justify-content-center"
+                  >
+                    <div class="beach_1"></div>
+                    <div
+                      class="destination-card--reting d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-star"></i>
+                      <span>4.5</span>
+                    </div>
+                  </div>
+                  <div class="destination-card--bottom">
+                    <h6 class="destination-card--title">Kina Mountain</h6>
+                    <div class="destination-card__total">
+                      <div class="destination-card__person d-flex">
+                        <i
+                          class="fa-sharp fa-solid fa-location-dot destination-card__person--icon d-flex justify-content-center"
+                        ></i>
+                        <span class="destination-card__person--title">
+                          Cambodia
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="destination-card__offer">
+                  <div
+                    class="destination-card--top d-flex justify-content-center"
+                  >
+                    <div class="palms"></div>
+                    <div
+                      class="destination-card--reting d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-star"></i>
+                      <span>4.2</span>
+                    </div>
+                  </div>
+                  <div class="destination-card--bottom">
+                    <h6 class="destination-card--title">Kina Mountain</h6>
+                    <div class="destination-card__total">
+                      <div class="destination-card__person d-flex">
+                        <i
+                          class="fa-sharp fa-solid fa-location-dot destination-card__person--icon d-flex justify-content-center"
+                        ></i>
+                        <span class="destination-card__person--title">
+                          Cambodia
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <div class="destination-card__offer">
+                  <div
+                    class="destination-card--top d-flex justify-content-center"
+                  >
+                    <div class="palms"></div>
+                    <div
+                      class="destination-card--reting d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-star"></i>
+                      <span>3.5</span>
+                    </div>
+                  </div>
+                  <div class="destination-card--bottom">
+                    <h6 class="destination-card--title">Kina Mountain</h6>
+                    <div class="destination-card__total">
+                      <div class="destination-card__person d-flex">
+                        <i
+                          class="fa-sharp fa-solid fa-location-dot destination-card__person--icon d-flex justify-content-center"
+                        ></i>
+                        <span class="destination-card__person--title">
+                          Cambodia
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /.destination-card -->
+            </div>
+            <!-- /.destination-tabs -->
+          </div>
+        </div>
+      </section>
+      <!-- /.destination -->
+      <section class="reviews-block">
+        <div class="container">
+          <div class="row">
+            <div class="wrapper">
+              <div class="slaider">
+                <!-- Slide_1 -->
+                <div class="slaider__item">
+                  <!-- <div class="palms"></div> -->
+                  <div class="review">
+                    <div class="review__quote">
+                      <img
+                        class="review__quote--img"
+                        src="images/quote.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="review__text d-flex justify-content-center">
+                      <div class="shaped"></div>
+                      <p class="rewiew__text--center">
+                        Our trip to Morocco was truly a onece in a lifetime
+                        experience and we are so grateful to everyone that made
+                        it happen seamlessly. Our travel planner, Jaouad, was
+                        increadible.
+                      </p>
+                    </div>
+                    <div class="review__name d-flex justify-content-center">
+                      <a href="#" target="_blank" alt="Name">-Vand D</a>
+                    </div>
+                    <div class="review__nickname d-flex justify-content-center">
+                      Happy Treloo
+                    </div>
+                    <div
+                      class="review__avatar d-flex justify-content-center align-items-center"
+                    >
+                      <div
+                        class="review__avatar--reting d-flex justify-content-center align-items-center"
+                      >
+                        <i class="fa-solid fa-star"></i>
+                        <span>4.5</span>
+                      </div>
+                      <div class="Ellipse_1"></div>
+                    </div>
+                  </div>
+                </div>
+                <!--Slide_2  -->
+                <div class="slaider__item">
+                  <!-- <div class="beach_1"></div> -->
+                  <div class="review">
+                    <div class="review__quote">
+                      <img
+                        class="review__quote--img"
+                        src="images/quote.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="review__text d-flex justify-content-center">
+                      <div class="shaped"></div>
+                      <p class="rewiew__text--center">
+                        Our trip to Morocco was truly a onece in a lifetime
+                        experience and we are so grateful to everyone that made
+                        it happen seamlessly. Our travel planner, Jaouad, was
+                        increadible.
+                      </p>
+                    </div>
+                    <div class="review__name d-flex justify-content-center">
+                      <a href="#" target="_blank" alt="Name">-Tru Vio</a>
+                    </div>
+                    <div class="review__nickname d-flex justify-content-center">
+                      Happy Treloo
+                    </div>
+                    <div
+                      class="review__avatar d-flex justify-content-center align-items-center"
+                    >
+                      <div
+                        class="review__avatar--reting d-flex justify-content-center align-items-center"
+                      >
+                        <i class="fa-solid fa-star"></i>
+                        <span>4.9</span>
+                      </div>
+                      <div class="Ellipse_2"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide_3 -->
+                <div class="slaider__item">
+                  <!-- <div class="beach_1"></div> -->
+                  <div class="review">
+                    <div class="review__quote">
+                      <img
+                        class="review__quote--img"
+                        src="images/quote.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="review__text d-flex justify-content-center">
+                      <div class="shaped"></div>
+                      <p class="rewiew__text--center">
+                        Our trip to Morocco was truly a onece in a lifetime
+                        experience and we are so grateful to everyone that made
+                        it happen seamlessly. Our travel planner, Jaouad, was
+                        increadible.
+                      </p>
+                    </div>
+                    <div class="review__name d-flex justify-content-center">
+                      <a href="#" target="_blank" alt="Name">-Tru Vio</a>
+                    </div>
+                    <div class="review__nickname d-flex justify-content-center">
+                      Happy Treloo
+                    </div>
+                    <div
+                      class="review__avatar d-flex justify-content-center align-items-center"
+                    >
+                      <div
+                        class="review__avatar--reting d-flex justify-content-center align-items-center"
+                      >
+                        <i class="fa-solid fa-star"></i>
+                        <span>4.9</span>
+                      </div>
+                      <div class="Ellipse_2"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide_4 -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+      </section>
+      <!-- /.reviews-block -->
+      <section class="discount-block">
+        <div class="container">
+          <div class="row">
+            <div class="discount-block__content">
+              <div class="discount">
+                <h2 class="title text-center">
+                  Don’t Miss The 50% Discount if You register Today
+                </h2>
+                <button
+                  class="register-btn bg-transition"
+                  type="button"
+                  value="Register Today"
+                  data-text="Register Today"
+                >
+                  Register Today
+                </button>
+              </div>
+            </div>
+            <!-- /.discount-block__content -->
+          </div>
+        </div>
+      </section>
+      <!-- /.discount-block -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div
+              class="footer-all d-flex align-items-center justify-content-between"
+            >
+              <div class="footer-all__copyright">
+                <span class="footer-all__copyrght--text">
+                  &copy 2022 Treloo LLC - All right reserved.
+                </span>
+              </div>
+              <!-- /.footer-all__copyright -->
+              <div class="footer-all__menu">
+                <a href="" class="footer-all__menu--item" data-text="Review">
+                  Review
+                </a>
+                <a href="" class="footer-all__menu--item" data-text="Tips">
+                  Tips
+                </a>
+                <a href="" class="footer-all__menu--item" data-text="Alerts">
+                  Alerts
+                </a>
+                <a href="" class="footer-all__menu--item" data-text="Blog">
+                  Blog
+                </a>
+              </div>
+              <!-- /.footer-all__menu -->
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- /.footer -->
+      <!-- Кнопка наверх -->
+      <div class="button-up">
+        <a id="button" class="d-flex justify-content-center align-items-center">
+          <i class="fa-solid fa-chevron-up"></i>
+        </a>
+      </div>
+      <!-- /.button-up -->
+      <!-- Popup window -->
+      <div class="popup" id="modal">
+        <div class="popup__overlay">
+          <div class="popup__body">
+            <a href="#" class="popup__body-button">
+              <i class="fa-solid fa-square-xmark"></i>
+            </a>
+            <h1 class="popup__body--text">Thank you for watching!</h1>
+          </div>
+        </div>
+      </div>
+      <!-- Form registration with popup -->
+      <div class="popup-click">
+        <div class="popup-click__container">
+          <div class="popup-click__wrapper">
+            <div id="click">
+              <form
+                role="form"
+                action="https://jsonplaceholder.typicode.com/"
+                autocomplete="off"
+                method="POST"
+              >
+                <fieldset class="one d-flex justify-content-between">
+                  <legend class="first-last">Ф.И.O.</legend>
+                  <label class="name d-flex align-items-center" for="name">
+                    Имя:
+                  </label>
+                  <input
+                    class="name-text"
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Ivan"
+                  />
+                  <!--  -->
+                  <label
+                    class="second-name d-flex align-items-center"
+                    for="secondName"
+                  >
+                    Фамилия:
+                  </label>
+                  <input
+                    class="second-text"
+                    type="text"
+                    name="secondName"
+                    id="secondName"
+                    placeholder="Ivanov"
+                  />
+                </fieldset>
+                <!--  -->
+                <fieldset class="two d-flex justify-content-between">
+                  <legend>Данные</legend>
+                  <label class="phone d-flex align-items-center" for="tel">Телефон:</label>
+                  <input
+                    class="phone-text"
+                    type="text"
+                    name="tel"
+                    id="tel"
+                    placeholder="555-555-555"
+                  />
+                  <!--  -->
+                  <label class="descrabe d-flex align-items-center" for="descrabe">Описание:</label>
+                  <input
+                    class="descrabe-text"
+                    type="text"
+                    name="descrabe"
+                    id="descrabe"
+                    placeholder="Frontend developer"
+                  />
+                </fieldset>
+                <!-- Button -->
+                <button type="submit" class="btn">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.popup-click -->
+    </main>
+    <!-- /.main -->
+    <script src="js/main.min.js"></script>
+
+    <!-- нужно после основного файла js ТОГДА ПЛАГИНЫ jquery РАБОТАЮТ -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <!--  -->
+  </body>
+</html>
+<!--  -->
