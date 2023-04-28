@@ -9,12 +9,6 @@
 > - jQuery
 > - jQuery UI
 > - Работа с формой при регистрации (отправка данных, сохранение данных при обновление страницы(LocalStorage))
-> - Фреймворк **Bootstrap**
 > - **Плагины** (_применены_ _при_ _вёрстке_)
 >    - [x] Slickslider
->    - [x] NoUiSlider
->    - [x] Ion.tabs
->    - [x] Progresscircle
->    - [x] Popper(tooltip)
->    - [x] Form Styler
->    - [x] jQuery.selectric
+>    - [x] Tabs
